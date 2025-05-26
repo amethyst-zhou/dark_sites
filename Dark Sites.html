@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>WI Dark Sites</title>
+        <style>
+            .maps {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                margin: 10px;
+            }
+            .map_dots {
+                position: absolute;
+            }
+            .dot_number_single {
+                position: relative;
+                left: -19px;
+                top: -4.5px;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+            .dot_number_double {
+                position: relative;
+                left: -22.5px;
+                top: -5.5px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #FFFFFF;
+            }
+            #right_panel {
+                position: absolute;
+                left: 1020px;
+                top: 10px;
+            }
+            .charts {
+                font-family: sans-serif;
+                margin: 0px 0px 2px 0px;
+            }
+            .charts_wrapper_size1 {
+                height: 119px;
+                background-color: #000000;
+                margin: 0 0 5px 0;
+            }
+            .charts_size1_upper_wrapper {
+                height: 90px;
+                overflow: hidden;
+                margin: 0 0 4px 0;
+            }
+            .charts_size1_upper {
+                margin: -16px 0 0 0;
+            }
+            .charts_size1_lower_wrapper {
+                height: 23px;
+                overflow: hidden;
+            }
+            .charts_size1_lower {
+                margin: -134px 0 0 0;
+            }
+            .charts_wrapper_size2 {
+                height: 107px;
+                background-color: #000000;
+                margin: 0 0 5px 0;
+            }
+            .charts_size2_upper_wrapper {
+                height: 78px;
+                overflow: hidden;
+                margin: 0 0 5px 0;
+            }
+            .charts_size2_upper {
+                margin: -16px 0 0 0;
+            }
+            .charts_size2_lower_wrapper {
+                height: 22px;
+                overflow: hidden;
+            }
+            .charts_size2_lower {
+                margin: -124px 0 0 0;
+            }
+            .chart_title_right {
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                color: black;
+                margin: 0 0 0 -5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="height: 1333px; margin: 20px" id="map">
+            <div>
+                <img style="z-index: -3" src="Maps/Map.jpg" width="1000" class= "maps"/>
+                <img style="opacity: 0.5; z-index: -2" src="Maps/Light Pollution.jpg" width="1000" class= "maps"/>
+                <img style="opacity: 0.35; z-index: -1" src="Maps/Driving Time.png" width="1000" class= "maps"/>
+            <div>
+                <!-- 1 Madison -->
+                <a href="https://www.cleardarksky.com/c/MadisonWIkey.html" target="_blank">
+                    <div style="left: 592px; top: 993px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#006aff" stroke="black" stroke-width="1.5" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">1</span>
+                    </div>
+                </a>
+                
+                <!-- 2 White Mound Lake -->
+                <a href="https://www.cleardarksky.com/c/MadisonWIkey.html" target="_blank">
+                    <div style="left: 484px; top: 932px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">2</span>
+                    </div>
+                </a>
+                
+                <!-- 3 Germania Marsh -->
+                <a href="https://www.cleardarksky.com/c/OxBTrObWIkey.html" target="_blank">
+                    <div style="left: 608px; top: 820px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">3</span>
+                    </div>
+                </a>
+                
+                <!-- 4  Kickapoo Valley Reserve Campsite J -->
+                <a href="https://www.cleardarksky.com/c/MtStrlgWIkey.html" target="_blank">
+                    <div style="left: 405px; top: 874px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">4</span>
+                    </div>
+                </a>
+                
+                <!-- 5 SW WI Driftless Area Sites / Deer Run Rd Ridge -->
+                <a href="https://www.cleardarksky.com/c/MtStrlgWIkey.html" target="_blank">
+                    <div style="left: 411px; top: 931px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">5</span>
+                    </div>
+                </a>
+                
+                <!-- 6 SW WI Driftless Area Sites / Hogback Prairie State Natural Area -->
+                <a href="https://www.cleardarksky.com/c/MtStrlgWIkey.html" target="_blank">
+                    <div style="left: 367px; top: 960px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">6</span>
+                    </div>
+                </a>
+                
+                <!-- 7 SW WI Driftless Area Sites / Davig Ridge Rd -->
+                <a href="https://www.cleardarksky.com/c/MtStrlgWIkey.html" target="_blank">
+                    <div style="left: 363px; top: 923px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">7</span>
+                    </div>
+                </a>
+                
+                <!-- 8 Meadow Valley SWA -->
+                <a href="https://www.google.com/maps/dir//44.307773,-90.357704" target="_blank">
+                    <div style="left: 451px; top: 731px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">8</span>
+                    </div>
+                </a>
+                
+                <!-- 9 Savanna Army Depot -->
+                <a href="https://www.google.com/maps/dir//42.193659,-90.303517" target="_blank">
+                    <div style="left: 451px; top: 1175px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_single">9</span>
+                    </div>
+                </a>
+                
+                <!-- 10 Langlade County Forest -->
+                <a href="https://www.google.com/maps/dir//45.270535,-88.952151" target="_blank">
+                    <div style="left: 663px; top: 525px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_double">10</span>
+                    </div>
+                </a>
+                
+                <!-- 11 Ottawa National Forest -->
+                <a href="https://www.google.com/maps/dir//46.106729,-90.847833" target="_blank">
+                    <div style="left: 676px; top: 300px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#232323" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_double">11</span>
+                    </div>
+                </a>
+                
+                <!-- 12 Chequamegon National Forest -->
+                <a href="https://www.cleardarksky.com/c/ChqmgnNFWIkey.html" target="_blank">
+                    <div style="left: 375px; top: 348px" class="map_dots">
+                        <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <circle r="9" cx="10" cy="10" fill="#353535" stroke="black" stroke-width="2" opacity="0.8" />
+                        </svg>
+                        <span class="dot_number_double">12</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div id="right_panel">
+            <!-- 1 Madison -->
+            <div class="charts">
+                <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="9" cx="10" cy="10" fill="#006aff" stroke="black" stroke-width="1.5"/>
+                </svg>
+                <span class="dot_number_single">1</span>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/MadisonWIkey.html" target="_blank">
+                    <span class="chart_title_right">Madison</span>
+                </a>
+                <span style="color:#ED3833"><b>Bortle &gt;6</b></span>
+            </div>
+            
+            <div class="charts_wrapper_size1">
+                <div class="charts_size1_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MadisonWIcsk.gif" height="194.7" class="charts_size1_upper" />
+                </div>
+                <div class="charts_size1_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MadisonWIcsk.gif" height="194.7" class="charts_size1_lower" />
+                </div>
+            </div>
+            
+            <!-- 2 White Mound Lake -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//43.3639416,-90.0913423" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">2</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/RchlCntWIkey.html" target="_blank">
+                    <span class="chart_title_right">White Mound Lake</span>
+                </a>
+                <span style="color:#316A1B"><b>Bortle 4</b></span><span> (1 h, 45 mi, <a href="https://www.google.com/maps/dir//43.3639416,-90.0913423" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/RchlCntWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/RchlCntWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 3 Germania Marsh SWA -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//43.906585,-89.299372" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">3</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/OxBTrObWIkey.html" target="_blank">
+                    <span class="chart_title_right">Germania Marsh SWA</span>
+                </a>
+                <span style="color:#316A1B"><b>Bortle 4</b></span><span> (1 h 15 min, 70 mi, <a href="https://www.google.com/maps/dir//43.906585,-89.299372" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/OxBTrObWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/OxBTrObWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 4 Kickapoo Valley Reserve Campsite J -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//43.6208766,-90.6135194" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">4</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/KckpRvWIkey.html" target="_blank">
+                    <span class="chart_title_right">Kickapoo Valley Reserve Campsite J</span>
+                </a>
+                <span style="color:#316A1B"><b>Bortle 4</b></span><span> (1 h 40 min, 85 mi, <a href="https://www.google.com/maps/dir//43.6208766,-90.6135194" target="_blank">navigation</a> / <a href="http://kickapoovalley.wi.gov/Recreation/Camping/CAMPSITE-BOOKING/" target="_blank">booking</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/KckpRvWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/KckpRvWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 5~7 SW WI Driftless Area Sites -->
+            <div class="charts">
+                <a style="text-decoration: none; margin-right: -12px" href="https://www.google.com/maps/dir//43.353846,-90.582678" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">5</span>
+                </a>
+                <a style="text-decoration: none; margin-right: -11px" href="https://www.google.com/maps/dir//43.213004,-90.87154/" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">6</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/MtStrlgWIkey.html" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">7</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//43.40503,-90.905734" target="_blank">
+                    <span class="chart_title_right">SW WI Driftless Area Sites</span>
+                </a>
+                <span style="color:#013EDC"><b>Bortle 3</b></span><span> (~ 1 h 30 min, ~ 80 mi, navigation: <a href="https://www.google.com/maps/dir//43.353846,-90.582678" target="_blank">5</a> / <a href="https://www.google.com/maps/dir//43.213004,-90.87154" target="_blank">6</a> / <a href="https://www.google.com/maps/dir//43.40503,-90.905734" target="_blank">7</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MtStrlgWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MtStrlgWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 8 Meadow Valley SWA -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//44.307773,-90.357704" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">8</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/MchwkObWIkey.html" target="_blank">
+                    <span class="chart_title_right">Meadow Valley SWA</span>
+                </a>
+                <span style="color:#013EDC"><b>Bortle 3</b></span><span> (2 h 10 min, 125 mi, <a href="https://www.google.com/maps/dir//44.307773,-90.357704" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MchwkObWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MchwkObWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 9 Savanna Army Depot -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//42.193659,-90.303517" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_single">9</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/MssbchRILkey.html" target="_blank">
+                    <span class="chart_title_right">Savanna Army Depot</span>
+                </a>
+                <span style="color:#316A1B"><b>Bortle 4</b></span><span> (2 h 10 min, 110 mi, <a href="https://www.google.com/maps/dir//42.193659,-90.303517" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MssbchRILcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/MssbchRILcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 10 Langlade County Forest -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//45.270535,-88.952151" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#ff2626" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_double">10</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/SwrLkWIkey.html" target="_blank">
+                    <span class="chart_title_right">Langlade County Forest</span>
+                </a>
+                <span style="color:#013EDC"><b>Bortle 3</b></span><span> (3 h 05 min, 185 mi, <a href="https://www.google.com/maps/dir//45.270535,-88.952151" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/SwrLkWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/SwrLkWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 11 Ottawa National Forest -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//46.294668,-88.876458" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#232323" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_double">11</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/FrstGtFmMIkey.html" target="_blank">
+                    <span class="chart_title_right">Ottawa National Forest</span>
+                </a>
+                <span style="color:#232323"><b>Bortle 2</b></span><span> (4 h, 265 mi, <a href="https://www.google.com/maps/dir//46.294668,-88.876458" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/FrstGtFmMIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/FrstGtFmMIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+            
+            <!-- 12 Chequamegon National Forest -->
+            <div class="charts">
+                <a style="text-decoration: none" href="https://www.google.com/maps/dir//46.106729,-90.847833" target="_blank">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="9" cx="10" cy="10" fill="#353535" stroke="black" stroke-width="1.5"/>
+                    </svg>
+                    <span class="dot_number_double">12</span>
+                </a>
+                <a style="text-decoration: none" href="https://www.cleardarksky.com/c/ChqmgnNFWIkey.html" target="_blank">
+                    <span class="chart_title_right">Chequamegon National Forest</span>
+                </a>
+                <span style="color:#353535"><b>Bortle 2</b></span><span> (4 h 10 min, 280 mi, <a href="https://www.google.com/maps/dir//46.106729,-90.847833" target="_blank">navigation</a>)</span>
+            </div>
+            
+            <div class="charts_wrapper_size2">
+                <div class="charts_size2_upper_wrapper">
+                    <img src="https://www.cleardarksky.com/c/ChqmgnNFWIcsk.gif" height="184" class="charts_size2_upper" />
+                </div>
+                <div class="charts_size2_lower_wrapper">
+                    <img src="https://www.cleardarksky.com/c/ChqmgnNFWIcsk.gif" height="184" class="charts_size2_lower" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
